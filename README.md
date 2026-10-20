@@ -91,18 +91,3 @@ com.example.recipeapp
 
 单模块工程（`:app`），主源码位于 `app/src/main/java/com/example/recipeapp/`，按分层包组织（见上文架构图）。
 
-## 🗺️ Roadmap / 待改进
-
-- [ ] CI/CD（尚无 `.github/workflows`）
-- [ ] 测试覆盖：补齐 ViewModel / Repository 缓存回退 / Room DAO / Compose UI 测试
-- [ ] Room 迁移策略与 schema 导出（当前 `version=1`、`exportSchema=false`）
-- [ ] 缓存过期（TTL）与主动刷新机制
-- [ ] release 混淆（`isMinifyEnabled=false`）
-- [ ] 国际化文案（当前 `strings.xml` 仅 `app_name`，其余硬编码英文）
-- [ ] 网络日志 / 超时重试配置
-- [ ] 领域层隔离：DTO 目前穿透到 presentation 层
-- [ ] 包名 `demain` 拼写（应为 `domain`）
-
-## 📄 License
-
-暂无（建议补充 Apache-2.0 或 MIT 许可证）。
